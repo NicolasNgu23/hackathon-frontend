@@ -1,0 +1,22 @@
+#header{
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    #links{
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+    }
+    
+    #logo-container{
+      justify-content: flex-end;
+      margin-left: 2rem;
+      align-items: center;
+      color: #4EA891;
+    }
