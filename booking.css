@@ -1,5 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #7f7b7b;
+    background-color: #b6b3b3;
+    min-height: 100vh;
+    width: 100vw;
     margin: 0;
 }
 
@@ -7,24 +15,72 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: repeat(12, 1fr);
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    border: 1px solid red;
 }
 
 #header {
     grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 13;
+    grid-row-end: 2;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    background-color: #b1b1b1;
+    background-color: #d5d3d3; 
+    border: 1px solid red;
 }
 #content {
-    grid-row-start: 4;
-    grid-row-end: 12;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    background-color: #7f7b7b;;
+    grid-row-start: 2;
+    grid-row-end: 15;
+    border: 1px solid red;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
 }
+ 
+#booking-container {
+    width: 900px;
+    height: 230px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: white;
+
+
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 14px;
+    padding-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: #4EA891;
+
+}
+
+#links {
+    
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px;
+}
+
+ #cart {
+    font-size: 18px;
+    margin-right: 14px;
+    padding-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    text-decoration: none;
+ }
+
+ #booking {
+    font-size: 18px;
+    margin-left: 18px;
+    padding-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    text-decoration: none;
+ }
