@@ -56,6 +56,7 @@ body {
     font-family: 'Kanit', sans-serif;
     color: #4EA891;
     text-decoration: none;
+    font-weight: 700;
 
 }
 
@@ -71,7 +72,7 @@ body {
  #cart {
     font-size: 18px;
     margin-right: 14px;
-    padding-bottom: 9px;
+    padding-bottom: 3px;
     font-family: 'Kanit', sans-serif;
     color: black;
     text-decoration: none;
@@ -80,7 +81,8 @@ body {
  #booking {
     font-size: 18px;
     margin-left: 18px;
-    padding-bottom: 9px;
+    margin-right: 20px; 
+    padding-bottom: 3px;
     font-family: 'Kanit', sans-serif;
     color: black;
     text-decoration: none;
