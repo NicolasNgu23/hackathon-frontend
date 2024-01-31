@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #e1e1e1;
+    background-color: #f0f0f0;
     min-height: 100vh;
     width: 100vw;
     margin: 0;
@@ -16,7 +16,7 @@ body {
     width: 100vw;
     display: grid;
     grid-template-rows: repeat(14, 1fr);
-    border: 1px solid red;
+    
 }
 
 #header {
@@ -27,12 +27,12 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #fafafa; 
-    border: 1px solid red;
+    
 }
 #content {
     grid-row-start: 2;
     grid-row-end: 15;
-    border: 1px solid red;
+    
     display: flex;
    flex-direction: row;
    justify-content: center;
@@ -42,7 +42,7 @@ body {
 #booking-container {
     width: 900px;
     height: 230px;
-    border: 1px solid red;
+    
     border-radius: 10px;
     background-color: #fafafa;
     display: flex;
@@ -55,25 +55,31 @@ body {
 
 }
 
-#mybookings {
+#tripdetails {
     width: 700px;
     height: 50px;
-    border: 1px solid red;
     background-color: #f5f0f0;
     border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow-y: auto;
+    
 }
 
-
+#booking-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Kanit', sans-serif;    
+    
+    
+}
 
 #home {
     font-size: 24px;
     margin-left: 14px;
-    padding-bottom: 12 px;
+    padding-bottom: 12px;
     font-family: 'Kanit', sans-serif;
     color: #4EA891;
     text-decoration: none;
@@ -108,3 +114,28 @@ body {
     color: black;
     text-decoration: none;
  }
+
+ #mybooking {
+    text-align: center;
+    margin-bottom: 23px;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+ }
+
+ #enjoy {
+    text-align: center;
+    margin-top: 20px;
+    color: #4EA891;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+ }
+
+#stick {
+    width: 170px;
+    height: 0px;
+    border-bottom: 2px solid #939393;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
