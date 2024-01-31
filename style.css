@@ -1,24 +1,38 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  
+}
+
 body{
-  margin:0
+  margin: 0;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  width: 100vw;
 }
 
 #container {
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-rows: repeat(12, 1fr);
-  grid-template-columns: repeat(12, 1fr);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  grid-template-rows: repeat(14, 1fr);
+  
+  
+  
 }
 
 #header{
 display: flex;
 grid-row-start: 1;
 grid-row-end: 2;
-grid-column-start: 1;
-grid-column-end: 13;
-display: flex;
+flex-direction: row;
 justify-content: space-between;
+align-items: center;
+background-color: #fafafa;
+
 }
 
 #links{
@@ -26,49 +40,72 @@ display: flex;
 margin-right: 2rem;
 align-items: center;
 text-decoration: none;
+
 }
 
 #links p{
   padding-right: 1rem;
-}
+  
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  
 
+}
 #links a{
   text-decoration: none;
-  color: black;
+  
 }
 
-#logo-container{
-  justify-content: flex-end;
-  margin-left: 2rem;
-  align-items: center;
+#home {
+  font-size: 24px;
+  margin-left: 14px;
+  padding-bottom: 12px;
+  font-family: 'Kanit', sans-serif;
   color: #4EA891;
+  text-decoration: none;
+  font-weight: 700;
+    
 }
 
 .content{
   background-image: url('./images/background.jpg');
   background-size: cover;
-  grid-column-start: 1;
-  grid-column-end: 13;
   grid-row-start: 2;
-  grid-row-end: 13;
-}
-
-.content h1{
+  grid-row-end: 15;
+  justify-content: center;
+  align-items: center;
   color: white;
   text-align: center;
+  
+  
 }
 
-.content p{
+#compare{
   color: white;
   text-align: center;
   font-size: 18px;
   font-weight: normal;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+  
 }
 
+#explore {
+  margin-top: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Kanit', sans-serif;
+  
+}
 
 .card-container{
   display: flex;
   justify-content: center;
+  
 }
 
 
@@ -77,13 +114,16 @@ text-decoration: none;
   width: 20vw;
   height: 40vh;
   margin: 2rem;
+  height: 330px;
   border-radius: 12px;
+  
 }
 
 .card-form form{
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  
 }
 
 .form-field {
@@ -91,25 +131,32 @@ text-decoration: none;
   padding: 0 16px;
   border: none;
   border-radius: 4px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
   outline: 0;
   transition: .2s;
   background-color: #F1F4F3;
+  
 }
 #departure{
   border-bottom: 2px solid #D2D5D4;
+
+  
 }
 
 #date{
   margin-top: 2.5rem;
-  margin-bottom:5.5rem ;
+  margin-bottom: 3.5rem ;
+  
 }
 
 #btn-form{
-  padding: 10px;
+  height: 40px;
   background-color:  #4EA891;
   border: 1px solid #ddd;
   color: white;
+  margin-top: 18px;
+  
 }
 
 .card{
@@ -118,15 +165,36 @@ text-decoration: none;
   height: 40vh;
   margin: 2rem;
   border-radius: 12px;
+  
+  height: 330px;
 }
 
 #card-img{
   text-align: center;
+  
+  
 
 }
 
 #card-img img{
-  margin-top: 2rem;
-  max-width: 70%;
-  border-bottom: 2px solid #4EA891 ;
+  margin-top: 6rem;
+  max-width: 30%;
+  
+  
+}
+
+.timetobook {
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+#stick {
+  width: 185px;
+  height: 0px;
+  border-bottom: 2px solid #4EA891;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 5px;
 }

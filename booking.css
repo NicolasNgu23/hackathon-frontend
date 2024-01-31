@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #e1e1e1;
     min-height: 100vh;
     width: 100vw;
     margin: 0;
@@ -87,33 +87,34 @@ body {
 
 }
 
-#links {
-    
-    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   padding-bottom: 10x;
-}
+    #links {
+        
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    }
 
- #cart {
-    font-size: 18px;
-    margin-right: 14px;
-    padding-bottom: 3px;
-    font-family: 'Kanit', sans-serif;
-    color: black;
-    text-decoration: none;
- }
+    #cart {
+        font-size: 18px;
+        margin-right: 14px;
+        padding-bottom: 3px;
+        font-family: 'Kanit', sans-serif;
+        color: black;
+        text-decoration: none;
+    }
 
- #booking {
-    font-size: 18px;
-    margin-left: 18px;
-    margin-right: 20px; 
-    padding-bottom: 3px;
-    font-family: 'Kanit', sans-serif;
-    color: black;
-    text-decoration: none;
- }
+    #booking {
+        font-size: 18px;
+        margin-left: 18px;
+        margin-right: 20px; 
+        padding-bottom: 3px;
+        font-family: 'Kanit', sans-serif;
+        color: black;
+        text-decoration: none;
+        
+    }
 
  #mybooking {
     text-align: center;
@@ -121,6 +122,7 @@ body {
     font-family: 'Kanit', sans-serif;
     text-decoration: none;
     font-weight: 200;
+    font-weight: 400;
  }
 
  #enjoy {
@@ -134,7 +136,7 @@ body {
 #stick {
     width: 170px;
     height: 0px;
-    border-bottom: 2px solid #939393;
+    border-bottom: 2px solid #e5e6e8;
     margin: auto;
     margin-top: 50px;
     border-radius: 5px;
