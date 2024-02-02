@@ -7,16 +7,19 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="style.css" />
-</head>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 
 <body>
 
 <div id="container">
 
   <div id="header">
-
     <div id="logo-container">
-      <h1 class="logo">TICKETHACK</h1>
+        <a href="index.html" id="home">TicketHack</a> 
     </div>
 
     <div id="links">
@@ -28,18 +31,24 @@
 
 
   <div class="content">
-    <h1>Explore the world effortlessly by train !</h1>
-    <p>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</p>
+
+    <p id="explore">Explore the world effortlessly by train !</p>
+    <p id= "compare" >Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</p>
     <div class="card-container">
 
       <div class="card-form">
 
-      <form action="#" method="post">
+      <div id="form">
         <input class="form-field" placeholder="Departure" type="text" id="departure" name="departure" required>
         <input class="form-field" placeholder="Arrival" type="text" id="arrival" name="arrival" required>
         <input class="form-field" type="date" id="date" name="date" required>
-        <input id="btn-form"      type="submit" value="Submit">
+<<<<<<< HEAD
+        <input id="btn-form"      type="submit" value="Search">
       </form>
+=======
+        <button id="btn-form">Search</button>
+      </div>
+>>>>>>> 2fevfront
 
       </div>
 
@@ -47,13 +56,14 @@
         <div id="card-img">
           <img src="./images/train.png" alt="">
         </div>
-        <p style="color: black; font-size: medium;"> It's time to book your future trip</p>
+        <div id="stick"></div>
+        <p class="timetobook"> It's time to book your future trip.</p>
       </div>
 
     </div>
   </div>
 </div>
 
-
+<script src="script.js"></script>
 </body>
-</html>x²
+</html>
