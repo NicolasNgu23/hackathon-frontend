@@ -1,47 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <link rel="stylesheet" href="cart.css" />
+
+  <title>BookingPage</title>
+
+  <link rel="stylesheet" href="cart.css" />
+
 </head>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500&display=swap" rel="stylesheet">
 <body>
-    <div id="main container">
-        <div id="header">
 
-            <div id="logo-container">
-              <h1 class="logo">TICKETHACK</h1>
-            </div>
+    <div id="container">
 
-            <div id="links">
-              <h3>Cart</h3>
-              <h3>Bookings</h3>
-            </div>
-        </div>
+  <div id="header">
+    <div id="logo-container">
+        <a href="index.html" id="home">TicketHack</a> 
+    </div>
 
+    <div id="links">
 
-        <div id="container">
-            <div id="myCart-container">
-             <h4>My cart</h4>
-                <div id="trip">
-                <h4>trips</h4>
-                <span class="delete">✖</span>
-                </div>
-            </div>
-            <div id="total">
-                <h4>total: €</h4>
-                <button type="button" id="btn-purchase">purchase</button>
-            </div>
-        </div>
-
-
-
-
-
-
-
+    
+      <a href="cart.html" id="cart">Cart</a>
+    
+      <a href="booking.html" id="booking">Bookings</a>
+    
 
     </div>
-    <script src="script.js"></script>
+
+  </div>
+<div id="content">
+    <div id="cart-container">
+
+        <div id="alldetails">
+            <div id="mycart">
+                <p class="mytext"></p> My cart</p>
+            </div>
+
+            <div id="tripdetails">
+
+                <div id="cart-details">
+                 
+      
+                </div>
+            </div>
+
+        </div>
+        <div id="total">
+            <p class="total"> Total : 230€</p>
+            <button type="button" id="btn-purchase">Purchase</button>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<script src="cart.js"></script>
 </body>
 </html>

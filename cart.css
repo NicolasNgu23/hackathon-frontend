@@ -1,24 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: repeat(14, 1fr);
+  
+}
+
+#header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa; 
+  
+}
+#content {
+  grid-row-start: 2;
+  grid-row-end: 15;
+  
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+#cart-container {
+  width: 900px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
 
 
-#header{
-    display: flex;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    display: flex;
-    justify-content: space-between;
-    }
-    
-    #links{
-    display: flex;
-    margin-right: 2rem;
-    align-items: center;
-    }
-    
-    #logo-container{
-      justify-content: flex-end;
-      margin-left: 2rem;
-      align-items: center;
-      color: #4EA891;
-    }
+
+#tripdetails {
+  width: 700px;
+  height: 50px;
+  background-color: #f5f0f0;
+  border-radius: 5px;
+}
+
+#alldetails{
+  display: flex;
+  flex-direction: column;
+}
+
+#cart-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Kanit', sans-serif;  
+  flex-direction: column;
+  display: flex;  
+  
+  
+}
+
+#home {
+  font-size: 24px;
+  margin-left: 14px;
+  padding-bottom: 12px;
+  font-family: 'Kanit', sans-serif;
+  color: #4EA891;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#links {
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 10x;
+}
+
+#cart {
+  font-size: 18px;
+  margin-right: 14px;
+  padding-bottom: 3px;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+#booking {
+  font-size: 18px;
+  margin-left: 18px;
+  margin-right: 20px; 
+  padding-bottom: 3px;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+#mycart {
+  text-align: center;
+  margin-bottom: 23px;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  font-weight: 200;
+  color: black;
+ font-weight: 300;
+}
+
+#total{
+  display: flex;
+  background-color: #011647;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: auto;
+  width: 100%;
+ padding: 1rem;
+ color: white;
+ font-family: 'Kanit', sans-serif;
+ font-size: 13px;
+ font-weight: 300;
+}
+
+#btn-purchase{
+  background-color: #4EA891;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 7px;
+  border: none;
+}
+
+#btn-delete{
+  color: white;
+  background-color: #4EA891;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 7px;
+}
+
+.cityContainer{
+  width: 700px;
+  height: 50px;
+  background-color: #f5f0f0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  
+}
+
+
